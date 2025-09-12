@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+
+:root {
+  margin: 0;
+  padding: 0;
+  /*Custom variables*/
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.app-bg {
+  background: url('./assets/ocean.jpg') no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.app-content {
+  padding: 10px;
+  background: hsla(216, 4%, 76%, 0.541);
+}
+
+.app-content:hover {
+  background: hsla(216, 4%, 76%, 0.8);
+  cursor: pointer;
+}
+
+.lp-logo {
+  width: 700px;
+}
+
+.lp-btn {
+  padding: 5px;
+  background: hsla(216, 4%, 76%, 0.541);
+}
+
+.lp-btn:hover {
+  background: hsla(216, 4%, 76%, 0.8);
+  cursor: pointer;
+}
+
+.lp-btn-icon:hover {
+  transform: rotate(320deg);
+  cursor: pointer;
+  color: orange;
+}
