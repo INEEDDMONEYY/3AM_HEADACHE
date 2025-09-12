@@ -1,10 +1,12 @@
+import Nav from '../components/Navbar'
+
 export default function Homepage() {
     return(
         <>
         <main>
-            <div>
-                <h1 className="">Welcome to the homepage</h1>
-            </div>
+            <nav>
+                <Nav />
+            </nav>
         </main>
         </>
     )

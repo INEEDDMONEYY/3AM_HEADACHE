@@ -1,7 +1,7 @@
 :root {
   margin: 0;
   padding: 0;
-  background: hsla(0, 88%, 43%, 0.925);
+  background-image: linear-gradient( 115.3deg,  rgba(255,24,105,1) 9.5%, rgba(248,142,0,1) 82.9% );
   /*Custom themes & variables*/
 }
 
@@ -12,7 +12,7 @@
 }
 
 body {
-  padding: 2rem;
-  margin: 0 2rem;
+  padding: 4rem;
+  margin: 0 4rem;
 }
 
