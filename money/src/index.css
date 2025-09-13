@@ -54,3 +54,12 @@ body {
   cursor: pointer;
   color: orange;
 }
+
+@media screen and (max-width: 1024px) {
+  .app.container {
+    flex-direction: column;
+  }
+  .lp-logo {
+    width: 100%;
+  }
+}
